@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/38/trunk/Ek/TasMakasKagit
+END
+tas-server.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/38/trunk/Ek/TasMakasKagit/tas-server.py
+END
+tas-client.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/38/trunk/Ek/TasMakasKagit/tas-client.py
+END
+main.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/trunk/Ek/TasMakasKagit/main.py
+END

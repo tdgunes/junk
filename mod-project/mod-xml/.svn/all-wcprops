@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/27/trunk/mod-xml
+END
+traningmap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/19/trunk/mod-xml/traningmap.xml
+END
+main.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/19/trunk/mod-xml/main.py
+END
+mainxml.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/19/trunk/mod-xml/mainxml.py
+END
+main-qt.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/27/trunk/mod-xml/main-qt.py
+END

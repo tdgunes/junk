@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<harita>
+    <ad>AlistirmaAdasi</ad>
+    <tanim>Denemek üzere oluşturulmuş bir harita</tanim>
+    <websayfasi>http://tdgunes.org</websayfasi>
+    <yapimci>Taha Doğan Güneş</yapimci>
+    <surum>1.0</surum>
+    <yapi>
+          <boyutx>15</boyutx>
+	  <boyuty>6</boyuty>
+          <bicim>+'14 - '+!-'14 b '-!-'14 b '-!-'14 b '-!-'14 b '-!+'14 - '+</bicim>                    
+    </yapi>
+</harita>

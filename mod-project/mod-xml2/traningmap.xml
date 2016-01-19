@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<harita>
+    <ad>Oda</ad>
+    <tanim>Odadan kaçış</tanim>
+    <websayfasi>http://tdgunes.org</websayfasi>
+    <yapimci>Okan Okuroğulları</yapimci>
+    <surum>1.0-beta</surum>
+    <yapi>
+          <x>30</x>
+          <y>2</y>
+          <bicim>---------------------------</bicim>
+          <bicim>-  / S          |   S    K-</bicim>  
+          <bicim>-  |---/        |S        -</bicim> 
+          <bicim>-               |------- --</bicim>
+          <bicim>-           ----          -</bicim>
+          <bicim>-           ||S           -</bicim>
+          <bicim>--- ---|    ----          -</bicim>
+          <bicim>-     M|            |--- --</bicim>
+          <bicim>- Y    |            |T   L-</bicim>
+          <bicim>----------|   |------------</bicim>        
+          <bicim>--CIKIS---|   |---EXIT-----</bicim> 
+          <bicim>------------E--------------</bicim>  
+    </yapi>
+</harita>

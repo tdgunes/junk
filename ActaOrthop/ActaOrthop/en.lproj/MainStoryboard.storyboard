@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--First View Controller - Home-->
+        <scene sceneID="11">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
+                <viewController title="Home" id="2" customClass="FirstViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="16">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Early version v0.1" textAlignment="center" id="21">
+                                <rect key="frame" x="20" y="357" width="280" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" size="system"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ptl-0v-cAr">
+                                <rect key="frame" x="124" y="159" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="About ">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0zk-3r-hAb">
+                                <rect key="frame" x="114" y="204" width="91" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Favorites">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vqh-U6-EhQ">
+                                <rect key="frame" x="100" y="249" width="121" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Current Issue">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zLt-y3-Gpy">
+                                <rect key="frame" x="91" y="294" width="139" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Acta Homepage">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="homepageImage_en_US.jpg" id="uJe-fr-yUF">
+                                <rect key="frame" x="20" y="20" width="280" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="ahome.png" id="7"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="844" y="-1115"/>
+        </scene>
+        <!--Act Favorite Table View Controller - Root View Controller-->
+        <scene sceneID="BFa-hz-khr">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Noj-9T-mAZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="rei-oa-j2c" customClass="ActFavoriteTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="b8b-O9-Hyv">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections/>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="CbB-28-BwU"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="1256" y="-520"/>
+        </scene>
+        <!--Act Grid View Controller - Root View Controller-->
+        <scene sceneID="jYA-PJ-f3C">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ydZ-bI-Qz5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="gof-ev-TvP" customClass="ActGridViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9Ql-RJ-ZUL">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="gof-ev-TvP" id="zON-YR-WUu"/>
+                            <outlet property="delegate" destination="gof-ev-TvP" id="11p-he-mFd"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="6WO-Ex-CE4"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="1256" y="60"/>
+        </scene>
+        <!--Navigation Controller - All Issues-->
+        <scene sceneID="nRN-Sb-XzJ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j4d-BP-aVm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="kUh-TD-a1B" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="All Issues" image="acloset.png" id="lyh-Yf-DnY"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Xc6-1y-A7D">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gof-ev-TvP" kind="relationship" relationship="rootViewController" id="BXw-qY-2fW"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="844" y="60"/>
+        </scene>
+        <!--Navigation Controller - Favorites-->
+        <scene sceneID="FDD-7g-eOg">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Td3-ee-bs1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="xNd-KS-ATM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favorites" image="astar.png" id="ikU-Cv-bV4"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Z07-4Q-38M">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="rei-oa-j2c" kind="relationship" relationship="rootViewController" id="Y3o-ow-MDv"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="844" y="-520"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+                <tabBarController id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
+                        <segue destination="xNd-KS-ATM" kind="relationship" relationship="viewControllers" id="ozn-HA-N5s"/>
+                        <segue destination="kUh-TD-a1B" kind="relationship" relationship="viewControllers" id="5im-mb-JHK"/>
+                        <segue destination="3bM-ri-wZf" kind="relationship" relationship="viewControllers" id="PYM-xY-hBV"/>
+                        <segue destination="1jX-YJ-COt" kind="relationship" relationship="viewControllers" id="7C0-OR-QEM"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="306" y="60"/>
+        </scene>
+        <!--View Controller - Current Issue-->
+        <scene sceneID="N8z-jr-pYH">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KZI-k3-ZgA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController title="Current Issue" id="3bM-ri-wZf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SvJ-rg-Zm2">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Current Issue" image="alightining.png" id="vCo-37-Uef"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="844" y="1208"/>
+        </scene>
+        <!--View Controller - Early Online-->
+        <scene sceneID="4Nd-Ko-frd">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vMY-Wl-Al4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController title="Early Online" id="1jX-YJ-COt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jIe-aF-Z2n">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Early Online" image="abook.png" id="fB6-Xc-OaC"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="844" y="628"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="abook.png" width="30" height="30"/>
+        <image name="acloset.png" width="30" height="30"/>
+        <image name="ahome.png" width="30" height="30"/>
+        <image name="alightining.png" width="30" height="30"/>
+        <image name="astar.png" width="30" height="30"/>
+        <image name="homepageImage_en_US.jpg" width="408" height="200"/>
+    </resources>
+    <classes>
+        <class className="ActFavoriteTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ActFavoriteTableViewController.h"/>
+        </class>
+        <class className="ActGridViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ActGridViewController.h"/>
+        </class>
+        <class className="FirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

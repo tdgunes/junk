@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D12FD9D15A5AA6200A5A30A /* example.html in Resources */ = {isa = PBXBuildFile; fileRef = 3D12FD9C15A5AA6200A5A30A /* example.html */; };
+		3D12FDAB15A5B40300A5A30A /* ahome.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12FDA915A5B40300A5A30A /* ahome.png */; };
+		3D12FDAC15A5B40300A5A30A /* ahome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12FDAA15A5B40300A5A30A /* ahome@2x.png */; };
+		3D12FDAF15A5B41500A5A30A /* abook.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12FDAD15A5B41500A5A30A /* abook.png */; };
+		3D12FDB015A5B41500A5A30A /* abook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12FDAE15A5B41500A5A30A /* abook@2x.png */; };
+		3D12FDB315A5B42E00A5A30A /* acloset.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12FDB115A5B42E00A5A30A /* acloset.png */; };
+		3D12FDB415A5B42E00A5A30A /* acloset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12FDB215A5B42E00A5A30A /* acloset@2x.png */; };
+		3D12FDB715A5B44600A5A30A /* alightining.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12FDB515A5B44600A5A30A /* alightining.png */; };
+		3D12FDB815A5B44600A5A30A /* alightining@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12FDB615A5B44600A5A30A /* alightining@2x.png */; };
+		3D12FDBB15A5B45600A5A30A /* astar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12FDB915A5B45600A5A30A /* astar.png */; };
+		3D12FDBC15A5B45600A5A30A /* astar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12FDBA15A5B45600A5A30A /* astar@2x.png */; };
+		3D21485015A09E230035AB0E /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D21484F15A09E230035AB0E /* Cell.xib */; };
+		3D73F04315A10D8D00A1EC37 /* ActDetailGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D73F04115A10D8D00A1EC37 /* ActDetailGridViewController.m */; };
+		3D73F04415A10D8D00A1EC37 /* ActDetailGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D73F04215A10D8D00A1EC37 /* ActDetailGridViewController.xib */; };
+		3D7B566A15A09D380089940B /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B566915A09D380089940B /* PhotoCell.m */; };
+		3D8987AB15A5D8AD008DAAC7 /* ActFavoriteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8987AA15A5D8AD008DAAC7 /* ActFavoriteTableViewController.m */; };
+		3D9C4B3015A21B650098DB54 /* ActArticleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C4B2F15A21B650098DB54 /* ActArticleObject.m */; };
+		3D9C4B3A15A21FA40098DB54 /* ActVolObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C4B3915A21FA40098DB54 /* ActVolObject.m */; };
+		3D9C4B3D15A221700098DB54 /* ActYearObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C4B3C15A221700098DB54 /* ActYearObject.m */; };
+		3DC50E7015A3C91400F2C346 /* ActArticleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC50E6E15A3C91400F2C346 /* ActArticleTableViewController.m */; };
+		3DC50E7115A3C91400F2C346 /* ActArticleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC50E6F15A3C91400F2C346 /* ActArticleTableViewController.xib */; };
+		3DC50E7615A3C97000F2C346 /* ArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC50E7515A3C97000F2C346 /* ArticleCell.m */; };
+		3DC50E7915A3C98800F2C346 /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC50E7815A3C98800F2C346 /* ArticleCell.xib */; };
+		3DC50E8415A462DF00F2C346 /* homepageImage_en_US.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DC50E8315A462DF00F2C346 /* homepageImage_en_US.jpg */; };
+		3DC50E8615A4B07700F2C346 /* show_image.php.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3DC50E8515A4B07600F2C346 /* show_image.php.jpeg */; };
+		3DDC4B3715973C3F004DAC18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDC4B3615973C3F004DAC18 /* UIKit.framework */; };
+		3DDC4B3915973C3F004DAC18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDC4B3815973C3F004DAC18 /* Foundation.framework */; };
+		3DDC4B3B15973C3F004DAC18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDC4B3A15973C3F004DAC18 /* CoreGraphics.framework */; };
+		3DDC4B4115973C3F004DAC18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC4B3F15973C3F004DAC18 /* InfoPlist.strings */; };
+		3DDC4B4315973C3F004DAC18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC4B4215973C3F004DAC18 /* main.m */; };
+		3DDC4B4715973C3F004DAC18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC4B4615973C3F004DAC18 /* AppDelegate.m */; };
+		3DDC4B4A15973C3F004DAC18 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC4B4815973C3F004DAC18 /* MainStoryboard.storyboard */; };
+		3DDC4B4D15973C3F004DAC18 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC4B4C15973C3F004DAC18 /* FirstViewController.m */; };
+		3DDC4B4F15973C3F004DAC18 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC4B4E15973C3F004DAC18 /* first.png */; };
+		3DDC4B5115973C3F004DAC18 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC4B5015973C3F004DAC18 /* first@2x.png */; };
+		3DDC4B5415973C3F004DAC18 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC4B5315973C3F004DAC18 /* SecondViewController.m */; };
+		3DDC4B5615973C3F004DAC18 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC4B5515973C3F004DAC18 /* second.png */; };
+		3DDC4B5815973C3F004DAC18 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC4B5715973C3F004DAC18 /* second@2x.png */; };
+		3DDC4B6215976335004DAC18 /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC4B6115976335004DAC18 /* Notes */; };
+		3DDC4B651597A097004DAC18 /* ActGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC4B641597A097004DAC18 /* ActGridViewController.m */; };
+		3DF8E09715A4E5F6007081F5 /* IMG_0774.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8E09615A4E5F6007081F5 /* IMG_0774.PNG */; };
+		3DF8E09A15A4F348007081F5 /* show_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8E09915A4F348007081F5 /* show_image.png */; };
+		3DF8E0A315A4F9EC007081F5 /* ActPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8E0A115A4F9EC007081F5 /* ActPDFViewController.m */; };
+		3DF8E0A415A4F9EC007081F5 /* ActPDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8E0A215A4F9EC007081F5 /* ActPDFViewController.xib */; };
+		3DF8E0A615A4FA6A007081F5 /* document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8E0A515A4FA69007081F5 /* document.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D12FD9C15A5AA6200A5A30A /* example.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = example.html; sourceTree = "<group>"; };
+		3D12FDA915A5B40300A5A30A /* ahome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahome.png; sourceTree = "<group>"; };
+		3D12FDAA15A5B40300A5A30A /* ahome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ahome@2x.png"; sourceTree = "<group>"; };
+		3D12FDAD15A5B41500A5A30A /* abook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abook.png; sourceTree = "<group>"; };
+		3D12FDAE15A5B41500A5A30A /* abook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abook@2x.png"; sourceTree = "<group>"; };
+		3D12FDB115A5B42E00A5A30A /* acloset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acloset.png; sourceTree = "<group>"; };
+		3D12FDB215A5B42E00A5A30A /* acloset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "acloset@2x.png"; sourceTree = "<group>"; };
+		3D12FDB515A5B44600A5A30A /* alightining.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alightining.png; sourceTree = "<group>"; };
+		3D12FDB615A5B44600A5A30A /* alightining@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alightining@2x.png"; sourceTree = "<group>"; };
+		3D12FDB915A5B45600A5A30A /* astar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astar.png; sourceTree = "<group>"; };
+		3D12FDBA15A5B45600A5A30A /* astar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "astar@2x.png"; sourceTree = "<group>"; };
+		3D21484F15A09E230035AB0E /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Cell.xib; path = ../Cell.xib; sourceTree = "<group>"; };
+		3D73F04015A10D8D00A1EC37 /* ActDetailGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActDetailGridViewController.h; path = ../ActDetailGridViewController.h; sourceTree = "<group>"; };
+		3D73F04115A10D8D00A1EC37 /* ActDetailGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActDetailGridViewController.m; path = ../ActDetailGridViewController.m; sourceTree = "<group>"; };
+		3D73F04215A10D8D00A1EC37 /* ActDetailGridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ActDetailGridViewController.xib; path = ../ActDetailGridViewController.xib; sourceTree = "<group>"; };
+		3D7B566815A09D380089940B /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoCell.h; path = ../PhotoCell.h; sourceTree = "<group>"; };
+		3D7B566915A09D380089940B /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoCell.m; path = ../PhotoCell.m; sourceTree = "<group>"; };
+		3D8987A915A5D8AD008DAAC7 /* ActFavoriteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActFavoriteTableViewController.h; sourceTree = "<group>"; };
+		3D8987AA15A5D8AD008DAAC7 /* ActFavoriteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActFavoriteTableViewController.m; sourceTree = "<group>"; };
+		3D9C4B2E15A21B650098DB54 /* ActArticleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActArticleObject.h; path = ../ActArticleObject.h; sourceTree = "<group>"; };
+		3D9C4B2F15A21B650098DB54 /* ActArticleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActArticleObject.m; path = ../ActArticleObject.m; sourceTree = "<group>"; };
+		3D9C4B3815A21FA40098DB54 /* ActVolObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActVolObject.h; sourceTree = "<group>"; };
+		3D9C4B3915A21FA40098DB54 /* ActVolObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActVolObject.m; sourceTree = "<group>"; };
+		3D9C4B3B15A221700098DB54 /* ActYearObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActYearObject.h; sourceTree = "<group>"; };
+		3D9C4B3C15A221700098DB54 /* ActYearObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActYearObject.m; sourceTree = "<group>"; };
+		3DC50E6D15A3C91400F2C346 /* ActArticleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActArticleTableViewController.h; sourceTree = "<group>"; };
+		3DC50E6E15A3C91400F2C346 /* ActArticleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActArticleTableViewController.m; sourceTree = "<group>"; };
+		3DC50E6F15A3C91400F2C346 /* ActArticleTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActArticleTableViewController.xib; sourceTree = "<group>"; };
+		3DC50E7415A3C97000F2C346 /* ArticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleCell.h; sourceTree = "<group>"; };
+		3DC50E7515A3C97000F2C346 /* ArticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleCell.m; sourceTree = "<group>"; };
+		3DC50E7815A3C98800F2C346 /* ArticleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		3DC50E8315A462DF00F2C346 /* homepageImage_en_US.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homepageImage_en_US.jpg; sourceTree = "<group>"; };
+		3DC50E8515A4B07600F2C346 /* show_image.php.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = show_image.php.jpeg; sourceTree = "<group>"; };
+		3DDC4B3215973C3F004DAC18 /* ActaOrthop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActaOrthop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DDC4B3615973C3F004DAC18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DDC4B3815973C3F004DAC18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DDC4B3A15973C3F004DAC18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DDC4B3E15973C3F004DAC18 /* ActaOrthop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActaOrthop-Info.plist"; sourceTree = "<group>"; };
+		3DDC4B4015973C3F004DAC18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DDC4B4215973C3F004DAC18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DDC4B4415973C3F004DAC18 /* ActaOrthop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActaOrthop-Prefix.pch"; sourceTree = "<group>"; };
+		3DDC4B4515973C3F004DAC18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DDC4B4615973C3F004DAC18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DDC4B4915973C3F004DAC18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3DDC4B4B15973C3F004DAC18 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3DDC4B4C15973C3F004DAC18 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3DDC4B4E15973C3F004DAC18 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		3DDC4B5015973C3F004DAC18 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		3DDC4B5215973C3F004DAC18 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3DDC4B5315973C3F004DAC18 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3DDC4B5515973C3F004DAC18 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		3DDC4B5715973C3F004DAC18 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3DDC4B6115976335004DAC18 /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		3DDC4B631597A097004DAC18 /* ActGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActGridViewController.h; sourceTree = "<group>"; };
+		3DDC4B641597A097004DAC18 /* ActGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActGridViewController.m; sourceTree = "<group>"; };
+		3DF8E09615A4E5F6007081F5 /* IMG_0774.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0774.PNG; sourceTree = "<group>"; };
+		3DF8E09915A4F348007081F5 /* show_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show_image.png; sourceTree = "<group>"; };
+		3DF8E0A015A4F9EC007081F5 /* ActPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActPDFViewController.h; sourceTree = "<group>"; };
+		3DF8E0A115A4F9EC007081F5 /* ActPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActPDFViewController.m; sourceTree = "<group>"; };
+		3DF8E0A215A4F9EC007081F5 /* ActPDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActPDFViewController.xib; sourceTree = "<group>"; };
+		3DF8E0A515A4FA69007081F5 /* document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = document.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DDC4B2F15973C3F004DAC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDC4B3715973C3F004DAC18 /* UIKit.framework in Frameworks */,
+				3DDC4B3915973C3F004DAC18 /* Foundation.framework in Frameworks */,
+				3DDC4B3B15973C3F004DAC18 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D12FDA215A5AE7900A5A30A /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				3D8987A915A5D8AD008DAAC7 /* ActFavoriteTableViewController.h */,
+				3D8987AA15A5D8AD008DAAC7 /* ActFavoriteTableViewController.m */,
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
+		3D12FDA715A5B33600A5A30A /* TabBar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				3D12FDA915A5B40300A5A30A /* ahome.png */,
+				3D12FDAA15A5B40300A5A30A /* ahome@2x.png */,
+				3D12FDAD15A5B41500A5A30A /* abook.png */,
+				3D12FDAE15A5B41500A5A30A /* abook@2x.png */,
+				3D12FDB115A5B42E00A5A30A /* acloset.png */,
+				3D12FDB215A5B42E00A5A30A /* acloset@2x.png */,
+				3D12FDB515A5B44600A5A30A /* alightining.png */,
+				3D12FDB615A5B44600A5A30A /* alightining@2x.png */,
+				3D12FDB915A5B45600A5A30A /* astar.png */,
+				3D12FDBA15A5B45600A5A30A /* astar@2x.png */,
+			);
+			name = "TabBar Icons";
+			sourceTree = "<group>";
+		};
+		3D8987AC15A5D8B9008DAAC7 /* All Issues */ = {
+			isa = PBXGroup;
+			children = (
+				3DDC4B631597A097004DAC18 /* ActGridViewController.h */,
+				3DDC4B641597A097004DAC18 /* ActGridViewController.m */,
+				3D73F04015A10D8D00A1EC37 /* ActDetailGridViewController.h */,
+				3D73F04115A10D8D00A1EC37 /* ActDetailGridViewController.m */,
+				3D73F04215A10D8D00A1EC37 /* ActDetailGridViewController.xib */,
+				3DC50E6D15A3C91400F2C346 /* ActArticleTableViewController.h */,
+				3DC50E6E15A3C91400F2C346 /* ActArticleTableViewController.m */,
+				3DC50E6F15A3C91400F2C346 /* ActArticleTableViewController.xib */,
+			);
+			name = "All Issues";
+			sourceTree = "<group>";
+		};
+		3D9C4B3215A21B710098DB54 /* Act Custom Groups */ = {
+			isa = PBXGroup;
+			children = (
+				3D9C4B2E15A21B650098DB54 /* ActArticleObject.h */,
+				3D9C4B2F15A21B650098DB54 /* ActArticleObject.m */,
+				3D9C4B3815A21FA40098DB54 /* ActVolObject.h */,
+				3D9C4B3915A21FA40098DB54 /* ActVolObject.m */,
+				3D9C4B3B15A221700098DB54 /* ActYearObject.h */,
+				3D9C4B3C15A221700098DB54 /* ActYearObject.m */,
+			);
+			name = "Act Custom Groups";
+			sourceTree = "<group>";
+		};
+		3D9C4B3715A21D840098DB54 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				3DC50E7215A3C94400F2C346 /* Custom Cells */,
+				3D12FDA215A5AE7900A5A30A /* Favorites */,
+				3D8987AC15A5D8B9008DAAC7 /* All Issues */,
+				3DF8E0A015A4F9EC007081F5 /* ActPDFViewController.h */,
+				3DF8E0A115A4F9EC007081F5 /* ActPDFViewController.m */,
+				3DF8E0A215A4F9EC007081F5 /* ActPDFViewController.xib */,
+			);
+			name = Tables;
+			sourceTree = "<group>";
+		};
+		3D9C4B3E15A221840098DB54 /* TDG Library */ = {
+			isa = PBXGroup;
+			children = (
+				3D9C4B3215A21B710098DB54 /* Act Custom Groups */,
+				3D9C4B3715A21D840098DB54 /* Tables */,
+			);
+			name = "TDG Library";
+			sourceTree = "<group>";
+		};
+		3DC50E7215A3C94400F2C346 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3DC50E7315A3C95200F2C346 /* PhotoCell */,
+				3DC50E7715A3C97600F2C346 /* ArticleCell */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		3DC50E7315A3C95200F2C346 /* PhotoCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D7B566815A09D380089940B /* PhotoCell.h */,
+				3D7B566915A09D380089940B /* PhotoCell.m */,
+				3D21484F15A09E230035AB0E /* Cell.xib */,
+			);
+			name = PhotoCell;
+			sourceTree = "<group>";
+		};
+		3DC50E7715A3C97600F2C346 /* ArticleCell */ = {
+			isa = PBXGroup;
+			children = (
+				3DC50E7415A3C97000F2C346 /* ArticleCell.h */,
+				3DC50E7515A3C97000F2C346 /* ArticleCell.m */,
+				3DC50E7815A3C98800F2C346 /* ArticleCell.xib */,
+			);
+			name = ArticleCell;
+			sourceTree = "<group>";
+		};
+		3DDC4B2715973C3F004DAC18 = {
+			isa = PBXGroup;
+			children = (
+				3DDC4B3C15973C3F004DAC18 /* ActaOrthop */,
+				3DDC4B3515973C3F004DAC18 /* Frameworks */,
+				3DDC4B3315973C3F004DAC18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DDC4B3315973C3F004DAC18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DDC4B3215973C3F004DAC18 /* ActaOrthop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DDC4B3515973C3F004DAC18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DDC4B3615973C3F004DAC18 /* UIKit.framework */,
+				3DDC4B3815973C3F004DAC18 /* Foundation.framework */,
+				3DDC4B3A15973C3F004DAC18 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DDC4B3C15973C3F004DAC18 /* ActaOrthop */ = {
+			isa = PBXGroup;
+			children = (
+				3DDC4B4515973C3F004DAC18 /* AppDelegate.h */,
+				3DDC4B4615973C3F004DAC18 /* AppDelegate.m */,
+				3DDC4B4815973C3F004DAC18 /* MainStoryboard.storyboard */,
+				3DDC4B4B15973C3F004DAC18 /* FirstViewController.h */,
+				3DDC4B4C15973C3F004DAC18 /* FirstViewController.m */,
+				3DDC4B4E15973C3F004DAC18 /* first.png */,
+				3DDC4B5015973C3F004DAC18 /* first@2x.png */,
+				3DC50E8515A4B07600F2C346 /* show_image.php.jpeg */,
+				3DDC4B5215973C3F004DAC18 /* SecondViewController.h */,
+				3DDC4B5315973C3F004DAC18 /* SecondViewController.m */,
+				3DDC4B5515973C3F004DAC18 /* second.png */,
+				3DDC4B5715973C3F004DAC18 /* second@2x.png */,
+				3DDC4B6115976335004DAC18 /* Notes */,
+				3DC50E8315A462DF00F2C346 /* homepageImage_en_US.jpg */,
+				3DF8E09615A4E5F6007081F5 /* IMG_0774.PNG */,
+				3DF8E09915A4F348007081F5 /* show_image.png */,
+				3DF8E0A515A4FA69007081F5 /* document.pdf */,
+				3D12FD9C15A5AA6200A5A30A /* example.html */,
+				3D12FDA715A5B33600A5A30A /* TabBar Icons */,
+				3DDC4B3D15973C3F004DAC18 /* Supporting Files */,
+				3D9C4B3E15A221840098DB54 /* TDG Library */,
+			);
+			path = ActaOrthop;
+			sourceTree = "<group>";
+		};
+		3DDC4B3D15973C3F004DAC18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DDC4B3E15973C3F004DAC18 /* ActaOrthop-Info.plist */,
+				3DDC4B3F15973C3F004DAC18 /* InfoPlist.strings */,
+				3DDC4B4215973C3F004DAC18 /* main.m */,
+				3DDC4B4415973C3F004DAC18 /* ActaOrthop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DDC4B3115973C3F004DAC18 /* ActaOrthop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDC4B5B15973C3F004DAC18 /* Build configuration list for PBXNativeTarget "ActaOrthop" */;
+			buildPhases = (
+				3DDC4B2E15973C3F004DAC18 /* Sources */,
+				3DDC4B2F15973C3F004DAC18 /* Frameworks */,
+				3DDC4B3015973C3F004DAC18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActaOrthop;
+			productName = ActaOrthop;
+			productReference = 3DDC4B3215973C3F004DAC18 /* ActaOrthop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DDC4B2915973C3F004DAC18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3DDC4B2C15973C3F004DAC18 /* Build configuration list for PBXProject "ActaOrthop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DDC4B2715973C3F004DAC18;
+			productRefGroup = 3DDC4B3315973C3F004DAC18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DDC4B3115973C3F004DAC18 /* ActaOrthop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DDC4B3015973C3F004DAC18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDC4B4115973C3F004DAC18 /* InfoPlist.strings in Resources */,
+				3DDC4B4A15973C3F004DAC18 /* MainStoryboard.storyboard in Resources */,
+				3DDC4B4F15973C3F004DAC18 /* first.png in Resources */,
+				3DDC4B5115973C3F004DAC18 /* first@2x.png in Resources */,
+				3DDC4B5615973C3F004DAC18 /* second.png in Resources */,
+				3DDC4B5815973C3F004DAC18 /* second@2x.png in Resources */,
+				3DDC4B6215976335004DAC18 /* Notes in Resources */,
+				3D21485015A09E230035AB0E /* Cell.xib in Resources */,
+				3D73F04415A10D8D00A1EC37 /* ActDetailGridViewController.xib in Resources */,
+				3DC50E7115A3C91400F2C346 /* ActArticleTableViewController.xib in Resources */,
+				3DC50E7915A3C98800F2C346 /* ArticleCell.xib in Resources */,
+				3DC50E8415A462DF00F2C346 /* homepageImage_en_US.jpg in Resources */,
+				3DC50E8615A4B07700F2C346 /* show_image.php.jpeg in Resources */,
+				3DF8E09715A4E5F6007081F5 /* IMG_0774.PNG in Resources */,
+				3DF8E09A15A4F348007081F5 /* show_image.png in Resources */,
+				3DF8E0A415A4F9EC007081F5 /* ActPDFViewController.xib in Resources */,
+				3DF8E0A615A4FA6A007081F5 /* document.pdf in Resources */,
+				3D12FD9D15A5AA6200A5A30A /* example.html in Resources */,
+				3D12FDAB15A5B40300A5A30A /* ahome.png in Resources */,
+				3D12FDAC15A5B40300A5A30A /* ahome@2x.png in Resources */,
+				3D12FDAF15A5B41500A5A30A /* abook.png in Resources */,
+				3D12FDB015A5B41500A5A30A /* abook@2x.png in Resources */,
+				3D12FDB315A5B42E00A5A30A /* acloset.png in Resources */,
+				3D12FDB415A5B42E00A5A30A /* acloset@2x.png in Resources */,
+				3D12FDB715A5B44600A5A30A /* alightining.png in Resources */,
+				3D12FDB815A5B44600A5A30A /* alightining@2x.png in Resources */,
+				3D12FDBB15A5B45600A5A30A /* astar.png in Resources */,
+				3D12FDBC15A5B45600A5A30A /* astar@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DDC4B2E15973C3F004DAC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDC4B4315973C3F004DAC18 /* main.m in Sources */,
+				3DDC4B4715973C3F004DAC18 /* AppDelegate.m in Sources */,
+				3DDC4B4D15973C3F004DAC18 /* FirstViewController.m in Sources */,
+				3DDC4B5415973C3F004DAC18 /* SecondViewController.m in Sources */,
+				3DDC4B651597A097004DAC18 /* ActGridViewController.m in Sources */,
+				3D7B566A15A09D380089940B /* PhotoCell.m in Sources */,
+				3D73F04315A10D8D00A1EC37 /* ActDetailGridViewController.m in Sources */,
+				3D9C4B3015A21B650098DB54 /* ActArticleObject.m in Sources */,
+				3D9C4B3A15A21FA40098DB54 /* ActVolObject.m in Sources */,
+				3D9C4B3D15A221700098DB54 /* ActYearObject.m in Sources */,
+				3DC50E7015A3C91400F2C346 /* ActArticleTableViewController.m in Sources */,
+				3DC50E7615A3C97000F2C346 /* ArticleCell.m in Sources */,
+				3DF8E0A315A4F9EC007081F5 /* ActPDFViewController.m in Sources */,
+				3D8987AB15A5D8AD008DAAC7 /* ActFavoriteTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DDC4B3F15973C3F004DAC18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DDC4B4015973C3F004DAC18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DDC4B4815973C3F004DAC18 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DDC4B4915973C3F004DAC18 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DDC4B5915973C3F004DAC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DDC4B5A15973C3F004DAC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DDC4B5C15973C3F004DAC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActaOrthop/ActaOrthop-Prefix.pch";
+				INFOPLIST_FILE = "ActaOrthop/ActaOrthop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DDC4B5D15973C3F004DAC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActaOrthop/ActaOrthop-Prefix.pch";
+				INFOPLIST_FILE = "ActaOrthop/ActaOrthop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DDC4B2C15973C3F004DAC18 /* Build configuration list for PBXProject "ActaOrthop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDC4B5915973C3F004DAC18 /* Debug */,
+				3DDC4B5A15973C3F004DAC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDC4B5B15973C3F004DAC18 /* Build configuration list for PBXNativeTarget "ActaOrthop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDC4B5C15973C3F004DAC18 /* Debug */,
+				3DDC4B5D15973C3F004DAC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DDC4B2915973C3F004DAC18 /* Project object */;
+}
